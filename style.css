@@ -71,7 +71,8 @@ h1{
     .quote-box{
         min-width: 350px;
         min-height: 200px;
-        margin-top: 50px;
+        margin-left: -20px;
+        /* margin-top: 50px; */
     }
 
     .quote-box p{
