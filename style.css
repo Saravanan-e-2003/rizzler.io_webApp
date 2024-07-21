@@ -69,9 +69,10 @@ h1{
 
 @media (max-width: 480px){
     .quote-box{
-        min-width: 350px;
-        min-height: 200px;
-        margin-left: -20px;
+        min-width: 300px;
+        min-height: 220px;
+        height: auto;
+        margin-left: -50px;
         /* margin-top: 50px; */
     }
 
@@ -89,9 +90,9 @@ h1{
     }
 
     .generate-button{
-        margin: 0px 0px -200px -160px;
+        margin: 0px 0px -200px -135px;
         position: fixed;
-        width: 325px;
+        width: 275px;
         font-size: bold;
     }
 }
