@@ -7,6 +7,7 @@ body{
     background-color: #8ec5fc;
     background-repeat: repeat-x;
     color: #333;
+    
 }
 
 
@@ -42,8 +43,21 @@ h1{
     text-align: center;
 }
 
-.quote-box p {
+#txt{
     font-size: 1.5em;
+    text-align: start;
+    margin: 0;
+}
+
+#line{
+    text-align: start;
+    color: #b3b3b3;
+    margin-top: -5px;
+}
+
+#categories{
+    font-style: italic;
+    color: #949494;
     text-align: start;
     margin: 0;
 }
@@ -66,13 +80,17 @@ h1{
 }
 
 @media (max-width: 480px){
-    .quote-box{
-        min-width: 400px;
-        min-height: 200px;
-        
+
+    body{
+        overflow: hidden;
     }
 
-    .quote-box p{
+    .quote-box{
+        min-width: 300px;
+        min-height: 200px;
+    }
+
+    #txt{
         margin-top: 0px;
         width:inherit;
         max-height: 300px;
@@ -84,7 +102,7 @@ h1{
     }
 
     .generate-button{
-        margin: 0px 0px -200px -160px;
+        margin: 20px 0px -200px -160px;
         position: fixed;
         width: 325px;
     }
